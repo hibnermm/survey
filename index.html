@@ -19,11 +19,11 @@
         <div>
           <h5>Demographic information</h5>
           <label for="name">Name: </label><br />
-          <input type="text" id="name" name="name" /><br />
+          <input type="text" id="name" name="name" autocomplete="off" /><br />
           <label for="email">Email: </label><br />
-          <input type="text" id="email" name="email" /><br />
+          <input type="text" id="email" name="email" autocomplete="off" /><br />
           <label for="phone">Phone: </label><br />
-          <input type="text" id="phone" name="phone" /><br />
+          <input type="text" id="phone" name="phone" autocomplete="off" /><br />
         </div>
         <div>
           <h5>Programming questions</h5>
@@ -31,63 +31,83 @@
           <input
             type="radio"
             id="zero-month"
-            name="experience"
+            name="zero-month"
             value="zero-month"
           />
           <label for="zero-month">0</label>
           <input
             type="radio"
             id="onethree-month"
-            name="experience"
+            name="onethree-month"
             value="onethree-month"
           />
           <label for="onethree-month">1-3 months</label>
           <input
             type="radio"
             id="foursix-month"
-            name="experience"
+            name="foursix-month"
             value="foursix-month"
           />
           <label for="oversix-month">6/+ months</label>
           <input
             type="radio"
             id="oversix-month"
-            name="experience"
+            name="oversix-month"
             value="oversix-month"
           />
           <label for="oversix-month">6/+ months</label>
 
           <h6>2. I am interested in data science:</h6>
-          <input type="radio" id="yes" name="data-science" value="yes-data" />
+          <input type="radio" id="yes-data" name="yes-data" value="yes-data" />
           <label for="yes-data">Yes</label>
-          <input type="radio" id="no" name="data-science" value="no-data" />
+          <input type="radio" id="no-data" name="no-data" value="no-data" />
           <label for="no-data">No</label>
 
           <h6>
             3. I am interested in backend programming languages with open source
             libraries:
           </h6>
-          <input type="radio" id="yes" name="backend" value="yes-backend" />
+          <input
+            type="radio"
+            id="yes-backend"
+            name="yes-backend"
+            value="yes-backend"
+          />
           <label for="yes-backend">Yes</label>
-          <input type="radio" id="no" name="backend" value="no-backend" />
+          <input
+            type="radio"
+            id="no-backend"
+            name="no-backend"
+            value="no-backend"
+          />
           <label for="no-backend">No</label>
 
           <h6>
             4. I am interested in frontend programming languages with fast,
             scalable performance:
           </h6>
-          <input type="radio" id="yes" name="frontend" value="yes-frontend" />
+          <input
+            type="radio"
+            id="yes-frontend"
+            name="yes-frontend"
+            value="yes-frontend"
+          />
           <label for="yes-frontend">Yes</label>
-          <input type="radio" id="no" name="frontend" value="no-frontend" />
+          <input
+            type="radio"
+            id="no-frontend"
+            name="no-frontend"
+            value="no-frontend"
+          />
           <label for="no-frontend">No</label>
         </div>
-        <button class="form-btn">Submit</button>
+        <button type="submit" class="form-btn">Submit</button>
       </div>
     </form>
   </div>
   <div class="container">
-    <h3>The programming language to learn first is:</h3>
-    <h4 id="output">...</h4>
+    <h3 class="hidden">The programming language to learn first is:</h3>
+    <h4 id="output"></h4>
   </div>
   <!-- 
   create survey - which language to learn first
