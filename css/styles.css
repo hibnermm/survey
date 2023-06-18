@@ -59,16 +59,6 @@ h6{
   font-size: 1rem;
 }
 
-.deom {
-  margin-bottom: 10px;
-}
-.demo label{
-  display: inline;
-  text-align: right;
-  width: 150px;
-}
-
-
 h3.hidden{
   display: none;
 }

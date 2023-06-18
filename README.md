@@ -24,7 +24,7 @@ _This project consists of a survey template._
 
 ## Known Bugs
 
-#### _There is no user warnings for blank form items _
+#### _There are no user warnings for blank form items. _
 
 ---
 
