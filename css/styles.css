@@ -3,6 +3,8 @@ body{
   padding: 0;
   font-size: 1rem;
   height: 100vh;
+  font-family: 'Cabin', sans-serif;
+  line-height: 1rem;
 }
 
 .container{
@@ -16,8 +18,29 @@ body{
   text-align: center;
 }
 
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-.form1{
+h2, h3{
+  font-size: 1.5rem;
+}
+
+h4{
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+h5{
+  font-size: 1.3rem;
+}
+
+h6{
+  font-size: 1.25rem;
+}
+
+.code-form{
   margin-top: 25px;
   margin-bottom: 25px;
   padding-top: 10px;
@@ -35,6 +58,16 @@ body{
   margin: 40px 0;
   font-size: 1rem;
 }
+
+.deom {
+  margin-bottom: 10px;
+}
+.demo label{
+  display: inline;
+  text-align: right;
+  width: 150px;
+}
+
 
 h3.hidden{
   display: none;
