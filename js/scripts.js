@@ -48,8 +48,3 @@ window.onload = function(){
 };
 
 
-/*accessibility 
-buttonsomething.onclick=function(){
-  document.body.style.backgroundColor = "yellow";
-
-  */
